@@ -1,32 +1,5 @@
-# QuestMaster - Python dependencies
-# Install everything with:  pip install -r requirements.txt
-# Python 3.10+ recommended.
 
-# --- Core (needed from Phase 1) ---
-pygame>=2.5
-networkx>=3.0
-numpy>=1.24
+# QuestMaster Streamlit deployment dependencies
+streamlit>=1.30
 matplotlib>=3.7
 pandas>=2.0
-python-dotenv>=1.0
-
-# --- Testing ---
-pytest>=7.4
-
-# --- Reasoning (Phase 2) ---
-# pyswip lets Python talk to SWI-Prolog. SWI-Prolog itself must be installed
-# separately from https://www.swi-prolog.org/Download.html
-# A pure-Python fallback reasoner will also be provided so the project runs without it.
-pyswip>=0.2.10
-
-# --- AI agents and frameworks (Phases 3-4) ---
-langchain>=0.2
-langchain-community>=0.2
-langgraph>=0.2
-pyautogen>=0.2
-crewai>=0.30
-
-# --- Optional dashboard ---
-streamlit>=1.30
-
-matplotlib>=3.7
